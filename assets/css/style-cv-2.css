@@ -113,14 +113,10 @@ ul {
 
 figure img {
     border-radius: 50%;
-    border: solid; color: #2980b9;
+    border: solid; color: #2c3e50;
 }
 
 .perfil {
     justify-items: center;
 
-}
-
-.nome {
-    
 }
