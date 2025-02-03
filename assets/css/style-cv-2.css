@@ -111,3 +111,12 @@ ul {
     margin: auto;
   }
 
+figure img {
+    border-radius: 50%;
+    border: solid; color: #2980b9;
+}
+
+.perfil {
+    justify-items: center;
+
+}
