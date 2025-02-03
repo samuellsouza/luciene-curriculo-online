@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+.resumo {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
+}
+
+.experiencia {
+    margin-bottom: 20px;
+}
+
+.periodo {
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+.cargo {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;    
+}
+
+.ponto{
+    list-style-type: none;
+    padding: 0;
+}
+
+.competencias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.certificacoes li {
+    margin-bottom: 10px;
+}
+
+.idiomas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+#local-text, #linkedin-text, #github-text {
+    text-decoration: none;
+    color: #333;
+    
+}
+
+#none-text:hover {
+    color: #3498db;    
+}
+
+#local-text:hover {
+    color: #3498db;    
+}
+
+#none-text {
+    color: #333;
+    
+}
+
+.copy {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.volta-1 {
+	color: #333;
+	padding: 10px;
+}
+
+.centralizar {
+    text-align: center;
+    margin: auto;
+  }
+
