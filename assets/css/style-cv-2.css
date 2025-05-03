@@ -27,6 +27,10 @@ h2 {
     margin-top: 20px;
 }
 
+p {
+    text-align: justify;
+}
+
 .resumo {
     background-color: #f8f9fa;
     padding: 15px;
@@ -48,20 +52,12 @@ h2 {
     color: #2c3e50;
 }
 
-ul {
-    list-style-type: square;
-    padding-left: 20px;    
+#one-text li {
+    vertical-align: bottom;
 }
 
 .ponto{
     list-style-type: none;
-    padding: 0;
-}
-
-.competencias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
 
 .certificacoes li {
@@ -76,27 +72,25 @@ ul {
 
 #local-text, #linkedin-text, #github-text {
     text-decoration: none;
-    color: #333;
-    
+    color: #333;    
 }
 
 #none-text:hover {
     color: #3498db;    
 }
 
-#local-text:hover {
+#local-text:hover, footer a:hover {
     color: #3498db;    
 }
 
-#none-text {
+#none-text  {
     color: #333;
-    
 }
 
 .copy {
 	background-color: #333;
 	color: #fff;
-	padding: 20px;
+	padding: 20px 0;
 	text-align: center;
 	margin-top: 50px;
 }
@@ -120,3 +114,22 @@ figure img {
     justify-items: center;
 
 }
+
+.competencias, .soft {
+    gap: 20px;
+    text-align: justify;
+}
+
+.contato img {
+    vertical-align: sub;
+}
+
+hr {
+    margin: 10px 0 ;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
