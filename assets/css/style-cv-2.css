@@ -8,12 +8,14 @@
     font-family: "Roboto", serif;
 }
 
-body {
+main {
     line-height: 1.6;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     color: #333;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0 0 10px 10px;
 }
 
 h1 {
@@ -29,6 +31,22 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+.formacao > ul > li {
+    margin-left: 20px;
+}
+
+.respo > ul > li {
+    margin-left: 20px;
+}
+
+.realizacoes > ul > li {
+    margin-left: 20px;
+}
+
+.skills > ul > li {
+    margin-left: 20px;
 }
 
 .resumo {
@@ -62,6 +80,7 @@ p {
 
 .certificacoes li {
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .idiomas {
@@ -92,7 +111,6 @@ p {
 	color: #fff;
 	padding: 20px 0;
 	text-align: center;
-	margin-top: 50px;
 }
 
 .volta-1 {
@@ -103,6 +121,7 @@ p {
 .centralizar {
     text-align: center;
     margin: auto;
+    padding: 30px;
   }
 
 figure img {
